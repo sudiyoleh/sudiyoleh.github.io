@@ -1,0 +1,51 @@
+body {
+	font: 16px/16px roboto-regular, arial, sans-serif;
+	font-size: 24px;
+}
+
+#search-ptn {
+    text-align: right;
+}
+
+#main-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 110px;
+}
+
+#avanced-form {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 110px;
+}
+
+input {
+	border-radius: 10px;
+	margin-bottom: 5px;
+	border-color: #dfe1e5;
+	font-size: 20px;
+}
+
+#advanced-btn {
+	background: #8ab4f8;
+    border-color: #8ab4f8;
+    color: #202124;
+}
+
+#logo {
+	width:500px
+}
+
+.icon {
+	width: 40px;
+}
+#text-img {
+	position: relative;
+	left: 200px;
+	color: #4285f4;
+	padding-bottom: 10px;
+	top: -20px;
+	z-index: 2
+}

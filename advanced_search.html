@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Розширений пошук</title>
+		<link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+		<div id="search-ptn">
+            <a href="./index.html"><svg class="icon" focusable="false" viewBox="0 0 24 24"><path fill="#34a853" d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8"></path><path fill="#ea4335" d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6"></path><path fill="#fbbc04" d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6"></path><path fill="#4285f4" d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59"></path></svg></a>
+        </div>
+        <table id="avanced-form">
+            <thead>
+                <th>
+                    Знайти сторінки, що містять...
+                </th>
+            </thead>
+            <tbody>
+                <form action="https://www.google.com/search">
+                    <tr>
+                        <td>усі ці слова: </td>
+                        <td><input placeholder="усіма цими словами" type="text" name="as_q"></td>
+                    </tr>
+                    <tr>
+                        <td>точне слово або фразу: </td>
+                        <td><input placeholder="саме цим словом або фразою" type="text" name="as_epq"></td>
+                    </tr>
+                    <tr>
+                        <td>будь-яке з цих слів: </td>
+                        <td><input placeholder="будь-яким із цих слів" type="text" name="as_oq"></td>
+                    </tr>
+                    <tr>
+                        <td>жодне з цих слів: </td>
+                        <td><input placeholder="жодне з цих слів" type="text" name="as_eq"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input id="advanced-btn" type="submit" value="Розширений пошук"></td>
+                    </tr>
+                </form>
+            </tbody>
+        </table>
+    </body>
+</html>
